@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+mobile/.env
+mobile/.env.*
+!mobile/.env.example
+
+# Runtime data and uploaded files
+uploads/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs and temporary output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.cache
+
+# Expo / React Native generated files
+.expo/
+mobile/.expo/
+frontend/.expo/
+dist/
+web-build/
+mobile/android/
+mobile/ios/
+*.tsbuildinfo
+
+# Editor and operating-system metadata
+.DS_Store
+**/.DS_Store
+.vscode/
+**/.vscode/
+.idea/
+
+# Local development tooling
+.genkit/
+.netlify/
+
+# Internal coursework and one-off development artifacts
+PERSON_3_TASKS.md
+PERSON6_API_QUICK_REFERENCE.md
+filelist.txt
+scratch/
+tmp-api-test.js
+test_issues.js
+checkRoutes.js
+createVerifiedUser.js
+listUsers.js
+dummy.jpg
+backend/
+CampusCare/
+frontend/
+prisma/migrations_archive/
+Software Eng SRS document finaLLLL...docx
+full updated SRS final.docx
+
+# Superseded pre-Expo-Router mobile prototype
+mobile/App.js
+mobile/src/navigation/
+mobile/src/screens/
+mobile/src/services/
+mobile/src/components/IssueComment.jsx
+mobile/src/components/StatusBadge.jsx
+mobile/src/theme/colors.js
